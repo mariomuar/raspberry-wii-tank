@@ -11,7 +11,7 @@ A personal robotics project where I designed and programmed the control system f
 * **Bluetooth:** Wireless communication protocol for the controller.
 
 ## Demo
-*[Note: Add a GIF or a couple of photos showing the tank in action here]*
+Inside this repository, you will find video files demonstrating the tank in action and showing its real-time response to the controller.
 
 ## How It Works
 The main Python script handles the Bluetooth connection with the Wiimote to read user inputs continuously. When it detects button presses or accelerometer shifts, the script translates these signals into directional movement commands. These commands are then routed through the Raspberry Pi's GPIO pins to drive the tank's motors.
@@ -29,7 +29,7 @@ Este es un proyecto personal de robótica donde diseñé y programé el control 
 * **Bluetooth:** Para la comunicación con el mando de Wii.
 
 ## Demostración
-*[Nota: Aquí te recomiendo subir un pequeño GIF o un par de fotos del tanque]*
+Dentro de los archivos de este repositorio puedes encontrar vídeos que muestran el funcionamiento del tanque en acción y cómo responde en tiempo real a los controles del mando.
 
 ## Cómo funciona
 El script principal en Python se encarga de leer los inputs del mando de Wii mediante conexión Bluetooth. Al detectar la pulsación de los botones o el acelerómetro, el código traduce estas señales en comandos de movimiento que se envían a los motores del tanque a través de los pines GPIO de la Raspberry.
